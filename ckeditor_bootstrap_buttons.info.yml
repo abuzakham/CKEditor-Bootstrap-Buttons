@@ -1,0 +1,9 @@
+name: CKEditor Bootstrap Buttons
+type: module
+description: This plugin adds bootstrap buttons feature to the editor.
+core: 8.x
+package: CKEditor
+version: 1.0
+dependencies:
+  - ckeditor
+  - editor

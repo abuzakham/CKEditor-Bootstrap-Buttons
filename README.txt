@@ -1,0 +1,1 @@
+CKEditor bootstrap buttons plugin for Drupal 8
