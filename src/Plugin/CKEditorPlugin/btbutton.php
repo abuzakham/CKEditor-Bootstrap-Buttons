@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\btbutton.
+ * Contains Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\Btbutton.
  */
 
 namespace Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
