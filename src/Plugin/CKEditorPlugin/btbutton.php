@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Definition of Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\btbutton.
+ * Contains Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\btbutton.
  */
 
 namespace Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
@@ -16,15 +16,15 @@ use Drupal\ckeditor\CKEditorPluginBase;
  * @CKEditorPlugin(
  *   id = "btbutton",
  *   label = @Translation("CKEditor bootstrap button"),
- *   module = "btbutton"
+ *   module = "ckeditor_bootstrap_buttons"
  * )
  */
-class btbutton extends CKEditorPluginBase {
+class Btbutton extends CKEditorPluginBase {
 
   /**
    * Implements \Drupal\ckeditor\Plugin\CKEditorPluginInterface::getFile().
    */
-  function getFile() {
+  public function getFile() {
     return drupal_get_path('module', 'ckeditor_bootstrap_buttons') . '/js/plugins/btbutton/plugin.js';
   }
 
@@ -45,7 +45,7 @@ class btbutton extends CKEditorPluginBase {
   /**
    * Implements \Drupal\ckeditor\Plugin\CKEditorPluginButtonsInterface::getButtons().
    */
-  function getButtons() {
+  public function getButtons() {
     return array(
       'btbutton' => array(
         'label' => t('btbutton'),
