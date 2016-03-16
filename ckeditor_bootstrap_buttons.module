@@ -22,12 +22,3 @@ function ckeditor_bootstrap_buttons_help($route_name, RouteMatchInterface $route
     default:
   }
 }
-
-/**
- * Implements hook_theme().
- */
-function ckeditor_bootstrap_buttons_theme() {
-  $theme = [];
-
-  return $theme;
-}

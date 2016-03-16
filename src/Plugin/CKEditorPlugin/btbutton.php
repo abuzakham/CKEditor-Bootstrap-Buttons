@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\Btbutton.
+ * Contains Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\Btbutton.
  */
 
-namespace Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
+namespace Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
 
 use Drupal\editor\Entity\Editor;
 use Drupal\ckeditor\CKEditorPluginBase;
@@ -25,7 +25,7 @@ class Btbutton extends CKEditorPluginBase {
    * Implements \Drupal\ckeditor\Plugin\CKEditorPluginInterface::getFile().
    */
   public function getFile() {
-    return drupal_get_path('module', 'ckeditor_bootstrap_buttons') . '/js/plugins/btbutton/plugin.js';
+    return '/libraries/btbutton/plugin.js';
   }
 
   /**
@@ -43,13 +43,13 @@ class Btbutton extends CKEditorPluginBase {
   }
 
   /**
-   * Implements \Drupal\ckeditor\Plugin\CKEditorPluginButtonsInterface::getButtons().
+   * {@inheritdoc}
    */
   public function getButtons() {
     return array(
       'btbutton' => array(
-        'label' => t('btbutton'),
-        'image' => drupal_get_path('module', 'ckeditor_bootstrap_buttons') . '/js/plugins/btbutton/icons/btbutton.png',
+        'label' => t('Bootstrap Buttons'),
+        'image' => '/libraries/btbutton/icons/btbutton.png',
       ),
     );
   }

@@ -29,10 +29,12 @@ FEATURES
 INSTALLATION
 
 1- Copy the ckeditor_bootstrap_buttons folder to your modules directory.
-2- Go to admin/modules and enable the module.
-3- Go to admin/config/content/formats and configure the desired profile.
-4- Move a button into the Active toolbar.
-5- Clear your browser's cache, and a new button will appear in your toolbar.
+2- Download the plugin from https://github.com/smonetti/btbutton.
+3- Place the plugin in the root libraries folder (/libraries).
+4- Go to admin/modules and enable the module.
+5- Go to admin/config/content/formats and configure the desired profile.
+6- Move a button into the Active toolbar.
+7- Clear your browser's cache, and a new button will appear in your toolbar.
 
 
 CONTRIBUTING & ISSUE TRACKING
