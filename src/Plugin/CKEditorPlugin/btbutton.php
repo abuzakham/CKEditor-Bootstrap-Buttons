@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\btbutton.
+ * Contains Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\btbutton.
  */
 
-namespace Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
+namespace Drupal\Ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
 
 use Drupal\editor\Entity\Editor;
 use Drupal\ckeditor\CKEditorPluginBase;
