@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin\Btbutton.
- */
-
 namespace Drupal\ckeditor_bootstrap_buttons\Plugin\CKEditorPlugin;
 
 use Drupal\editor\Entity\Editor;
