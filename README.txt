@@ -4,7 +4,6 @@ CKEditor Bootstrap Buttons -  is an extension to the Drupal 8 CKEditormodule.
 REQUIREMENTS
 
 - ckeditor
-- editor
 
 
 FEATURES
