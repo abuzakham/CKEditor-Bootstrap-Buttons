@@ -1,4 +1,0 @@
-ckeditor_bootstrap_buttons.btbutton:
-  version: VERSION
-  js:
-    /libraries/btbutton/plugin.js: {}
