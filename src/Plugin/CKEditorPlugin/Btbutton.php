@@ -20,7 +20,7 @@ class Btbutton extends CKEditorPluginBase {
    * Implements \Drupal\ckeditor\Plugin\CKEditorPluginInterface::getFile().
    */
   public function getFile() {
-    return '/libraries/btbutton/plugin.js';
+    return 'libraries/btbutton/plugin.js';
   }
 
   /**
@@ -44,7 +44,7 @@ class Btbutton extends CKEditorPluginBase {
     return array(
       'btbutton' => array(
         'label' => t('Bootstrap Buttons'),
-        'image' => '/libraries/btbutton/icons/btbutton.png',
+        'image' => 'libraries/btbutton/icons/btbutton.png',
       ),
     );
   }
